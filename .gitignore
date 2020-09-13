@@ -8,12 +8,6 @@ npm-debug.*
 *.mobileprovision
 *.orig.*
 web-build/
-aroundme.png
-home.png
-login.png
-profile.png
-room.png
-signup.png 
 
 # macOS
 .DS_Store
