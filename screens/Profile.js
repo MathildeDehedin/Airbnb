@@ -25,7 +25,6 @@ const Profile = ({ setToken, setId }) => {
   const [username, setUsername] = useState("");
   const [description, setDescription] = useState("");
 
-  // OK
   useEffect(() => {
     const getUser = async () => {
       const token = await AsyncStorage.getItem("userToken");
@@ -45,7 +44,7 @@ const Profile = ({ setToken, setId }) => {
     };
     getUser();
   }, []);
-  // OK
+
   const editUser = async () => {
     const token = await AsyncStorage.getItem("userToken");
     const id = await AsyncStorage.getItem("userId");
@@ -69,6 +68,11 @@ const Profile = ({ setToken, setId }) => {
       console.log(error.message);
       alert("Please try again");
     }
+  };
+
+  const deconnect = () => {
+    setToken(null);
+    setId(null);
   };
 
   const handleImagePicked = useCallback(async (pickerResult) => {
@@ -211,10 +215,12 @@ const Profile = ({ setToken, setId }) => {
       </TouchableOpacity>
       <TouchableOpacity
         style={styles.logoutBtn}
-        onPress={() => {
-          setToken(null);
-          setId(null);
-        }}
+        onPress={deconnect}
+        // onPress={() => {
+        //   console.log(setToken);
+        //   // setToken(null);
+        //   // setId(null);
+        // }}
       >
         <Text style={styles.logoutText}>Se déconnecter</Text>
       </TouchableOpacity>

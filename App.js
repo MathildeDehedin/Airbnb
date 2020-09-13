@@ -68,8 +68,10 @@ const App = () => {
               {() => (
                 <Tab.Navigator
                   tabBarOptions={{
+                    activeTintColor: "black",
+                    inactiveTintColor: "white",
                     style: {
-                      backgroundColor: "#F35960",
+                      backgroundColor: "#F1485C",
                     },
                   }}
                 >
@@ -90,7 +92,7 @@ const App = () => {
                             title: "List",
                             tabBarLabel: "Home",
                             headerStyle: { backgroundColor: "#F1485C" },
-                            headerTitleStyle: { color: "white" },
+                            headerTitleStyle: { color: "black" },
                             headerTitleAlign: "center",
                           }}
                         >
@@ -112,7 +114,7 @@ const App = () => {
                       ),
                     }}
                   >
-                    {() => <Profile />}
+                    {() => <Profile setId={setId} setToken={setToken} />}
                   </Tab.Screen>
 
                   <Tab.Screen

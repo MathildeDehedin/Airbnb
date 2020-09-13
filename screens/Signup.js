@@ -36,7 +36,7 @@ const Signup = ({ setToken, setId }) => {
             password: password,
           }
         );
-        console.log(response.data); //OK
+        //console.log(response.data);
         if (response.data.token) {
           setToken(response.data.token);
           setId(response.data.id);
