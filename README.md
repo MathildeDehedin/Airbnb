@@ -2,9 +2,11 @@
 
 ### Made with _React Navigation_, _Axios_, _ReactNative Maps_, _ReactNative Snap Carousel_
 
-<img src="./login.png" width="250" borderRadius="100" alt="Login Screen">
+<p>React</p>
 
-<img src="./signup.png" width="250" style="border-radius:5%" alt="Signup Screen">
+<img src="./assets/login.png" width="250" alt="Login Screen">
+
+<img src="./signup.png" width="250" alt="Signup Screen">
 
 <img src="./home.png" width="250" alt="Home Screen">
 
