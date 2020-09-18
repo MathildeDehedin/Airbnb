@@ -2,11 +2,11 @@
 
 ### _Languages_ & _Packages_
 
-<img alt="css" width="64px" src="./assets/native-logo.png">
-[React Navigation](https://github.com/react-navigation/react-navigation)
-[Axios](https://github.com/axios/axios)
-[Expo](https://github.com/expo/expo)
-[React Native maps](https://github.com/react-native-community/react-native-maps)
+<img alt="css" width="64px" src="./assets/native-logo.png"> <br>
+[React Navigation](https://github.com/react-navigation/react-navigation) <br>
+[Axios](https://github.com/axios/axios) <br>
+[Expo](https://github.com/expo/expo) <br>
+[React Native maps](https://github.com/react-native-community/react-native-maps) <br>
 [React Native Snap Carousel](https://github.com/archriss/react-native-snap-carousel)
 
 <!-- <p align="center">
