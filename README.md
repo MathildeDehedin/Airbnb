@@ -10,9 +10,9 @@
 [React Native Snap Carousel](https://github.com/archriss/react-native-snap-carousel)
 
 <p align="center">
-<img src="./src/assets/login.png" width="250" alt="login">
-<img src="./src/assets/signup.png" width="250" alt="signup">
-<img src="./src/assets/home.png" width="250" alt="home">
-<img src="./src/assets/profile.png" width="250" alt="profile">
-<img src="./src/assets/annonce.png" width="250" alt="annonce">
-<img src="./src/assets/carte.png" width="250" alt="carte"></p>
+<img src="./assets/login.png" width="250" alt="login">
+<img src="./assets/signup.png" width="250" alt="signup">
+<img src="./assets/home.png" width="250" alt="home">
+<img src="./assets/profile.png" width="250" alt="profile">
+<img src="./assets/annonce.png" width="250" alt="annonce">
+<img src="./assets/carte.png" width="250" alt="carte"></p>
