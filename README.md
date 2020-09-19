@@ -9,6 +9,9 @@
 [React Native maps](https://github.com/react-native-community/react-native-maps) <br>
 [React Native Snap Carousel](https://github.com/archriss/react-native-snap-carousel)
 
+### _Screenshots_
+
+<br>
 <p align="center">
 <img src="./assets/login.png" width="250" alt="login">
 <img src="./assets/signup.png" width="250" alt="signup">
